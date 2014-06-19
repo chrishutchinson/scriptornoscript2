@@ -18,12 +18,18 @@
 		</a>
 	</div>
 	<ul class="nav navbar-nav pull-right" ng-if="!currentUser">
-		<li><a href="http://www.github.com">View on GitHub</a></li>
-		<li><a href="http://www.twitter.com/chrishutchinson">@chrishutchinson</a></li>
+		<li><a href="https://github.com/chrishutchinson/scriptornoscript2"><i class="fa fa-github"></i> View on GitHub</a></li>
+		<li><a href="http://www.twitter.com/chrishutchinson"><i class="fa fa-twitter"></i> @chrishutchinson</a></li>
 	</ul>
 </div>
 
 <div ng-view></div>
+
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <ul class="nav navbar-nav">
+		<p class="navbar-text">Created by <a href="http://www.twitter.com/chrishutchinson">Chris Hutchinson</a></p>
+	</ul>
+</div>
 
 <script src="js/vendor/angular.min.js"></script>
 
